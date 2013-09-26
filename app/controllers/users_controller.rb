@@ -2,6 +2,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
+    # This is for understanding git.
     @users = User.all
 
     respond_to do |format|
